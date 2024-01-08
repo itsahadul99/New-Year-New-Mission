@@ -200,6 +200,7 @@
 
 /* upcoming offer section style end */
 /* holiday section style start */
+
 .holiday-sale {
     text-align: center;
     margin-top: 120px;
@@ -207,7 +208,6 @@
 }
 
 .holiday-sale h4 {
-    font-family: "Inter", sans-serif;
     color: #070211;
     font-size: 24px;
     font-weight: 500;
@@ -215,11 +215,9 @@
 }
 
 .holiday-sale span {
-    font-family: "Merriweather", serif;
     font-size: 72px;
     font-weight: 900;
 }
-
 .holiday-sale p {
     color: rgba(7, 2, 17, 0.6);
     text-align: center;
@@ -227,34 +225,30 @@
     font-weight: 500;
     padding-top: 28px;
 }
-
 .down-background {
     background: url("../image/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
+    margin-right: 127px;
 }
-
 .offer-container {
     position: relative;
-    top: 6px;
-    left: 122px;
+    top: 8px;
+    left: 60px;
 }
-
 .offer {
-
     position: absolute;
     top: 78px;
-    /* right: 20px; */
     left: -158px;
-
 }
-
 .down-background {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 94px;
 }
+/* holiday section style end */
 
+/* portfolio section style start */
 .portfolio-text-container {
     text-align: left;
 }
@@ -264,9 +258,7 @@
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 0;
-    /* margin-left:150px; */
 }
-
 .portfolio-big-title {
     color: #070211;
     font-size: 48px;
@@ -274,7 +266,6 @@
     text-transform: capitalize;
     margin-top: 0;
     margin-bottom: 0;
-    /* margin-left:150px; */
 }
 
 .portfolio-description {
@@ -369,7 +360,6 @@
     font-size: 18px;
     font-weight: 600;
 }
-
 /* subscribe-section-style-end */
 /* main section end */
 /* footer section style start */
@@ -392,7 +382,6 @@
     padding-top: 120px;
     padding-left: 140px;
 }
-
 #phn {
     color: #FFF;
     font-size: 24px;
@@ -400,7 +389,6 @@
     line-height: 40px;
     margin-right: 200px;
 }
-
 #website {
     color: #FFF;
     font-size: 24px;
@@ -409,42 +397,35 @@
     text-decoration: none;
     margin-right: 250px;
 }
-
 #phn>img {
     width: 24px;
     height: 24px;
     padding-top: 128px;
 }
-
 .social-icon {
     margin-top: 20px;
     text-align: center;
 }
-
 .social-icon>a {
     padding: 5px;
     text-align: center;
 }
-
 .social-icon a img {
     width: 64px;
     height: 64px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
-
 .copyrights {
     display: flex;
     color: #FFF;
     justify-content: space-between;
     margin: 50px 140px;
 }
-
 .copyrights>a {
     text-decoration: none;
     color: #FFF;
 }
-
 hr {
     width: 85%;
     border-bottom: 1px solid #ffffff0a;
