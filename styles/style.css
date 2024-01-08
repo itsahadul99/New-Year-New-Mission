@@ -122,7 +122,7 @@
 }
 
 .midnight-inner-img {
-    margin: 100px 100px 0 0;
+    margin: 100px 200px 0 0;
     position: relative;
 }
 
@@ -197,44 +197,68 @@
 #new-year-img {
     padding-top: 20px;
 }
+
 /* upcoming offer section style end */
 /* holiday section style start */
-.holiday-section-text-container {
+.holiday-sale {
     text-align: center;
-    margin-top: 0;
-    padding: 0;
-    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 68px;
 }
-#function {
+
+.holiday-sale h4 {
+    font-family: "Inter", sans-serif;
     color: #070211;
-    margin-bottom: 20px;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
+    padding-bottom: 16px;
 }
-#discount-announcement {
-    font-size: 50px;
-    color: #070211;
-    font-weight: 800;
+
+.holiday-sale span {
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale p {
+    color: rgba(7, 2, 17, 0.6);
     text-align: center;
-    margin-top: 0;
-}
-#discount-announcement>span {
-    color: #F00;
-}
-.extra-p {
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    padding-top: 28px;
 }
-/* portfolio-section-style-start */
-/* .portfolio-container {
-    text-align: left;
-} */
-.portfolio-text-container{
+
+.down-background {
+    background: url("../image/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.offer-container {
+    position: relative;
+    top: 6px;
+    left: 122px;
+}
+
+.offer {
+
+    position: absolute;
+    top: 78px;
+    /* right: 20px; */
+    left: -158px;
+
+}
+
+.down-background {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 94px;
+}
+
+.portfolio-text-container {
     text-align: left;
 }
+
 .portfolio-small-title {
     color: #F00;
     font-size: 22px;
@@ -242,47 +266,54 @@
     margin-bottom: 0;
     /* margin-left:150px; */
 }
+
 .portfolio-big-title {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
     margin-top: 0;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     /* margin-left:150px; */
 }
+
 .portfolio-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 200;
     padding-bottom: 20px;
-    margin-top: 0; 
+    margin-top: 0;
     /* margin-left:150px; */
 }
+
 .portfolio-img-container {
     height: 900px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     height: 1000px;
     justify-content: center;
 }
-.portfolio-img { 
+
+.portfolio-img {
     width: 420px;
     height: 450px;
     border-radius: 16px;
     transition: 0.4s;
     border: 2px solid transparent;
 }
+
 .portfolio-img:hover {
     border: 2px solid red;
 }
+
 /* portfolio section style end */
 /* subscribe section style start */
 .subscribe-section {
     text-align: center;
     background: rgba(255, 0, 0, 0.05);
 }
+
 .section-title {
     color: #070211;
     text-align: center;
@@ -291,6 +322,7 @@
     text-transform: capitalize;
     margin-top: 0px;
 }
+
 .section-description {
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
@@ -298,27 +330,31 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 32px;
-    margin: 0 212px;
+    margin-left: 320px;
 }
+
 #subscribe-img {
     width: 150px;
     height: 150px;
     margin-top: 20px;
 }
+
 .subscribe {
     text-align: center;
     margin-left: 200px;
     margin-bottom: 80px;
 }
+
 #subscribe-input {
     border-radius: 50px;
-    background: #FFF;  
+    background: #FFF;
     width: 500px;
     height: 50px;
     border: 0;
     padding-left: 20px;
     font-size: 16px;
 }
+
 #subscribe-button {
     position: relative;
     right: 152px;
@@ -333,6 +369,7 @@
     font-size: 18px;
     font-weight: 600;
 }
+
 /* subscribe-section-style-end */
 /* main section end */
 /* footer section style start */
@@ -372,36 +409,43 @@
     text-decoration: none;
     margin-right: 250px;
 }
+
 #phn>img {
     width: 24px;
     height: 24px;
     padding-top: 128px;
 }
+
 .social-icon {
     margin-top: 20px;
     text-align: center;
 }
+
 .social-icon>a {
     padding: 5px;
     text-align: center;
 }
+
 .social-icon a img {
     width: 64px;
     height: 64px;
     margin-bottom: 30px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
+
 .copyrights {
     display: flex;
     color: #FFF;
     justify-content: space-between;
     margin: 50px 140px;
 }
+
 .copyrights>a {
     text-decoration: none;
     color: #FFF;
 }
-hr{
+
+hr {
     width: 85%;
-    border-bottom: 1px solid #ffffff0a ;
+    border-bottom: 1px solid #ffffff0a;
 }
