@@ -132,3 +132,41 @@
     margin-top: 10px;
 }
 /* party time section style end */
+/* upcoming section style start */
+.upcoming-offer-section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    gap: 50px;
+    align-items: center;
+}
+.forth-section-first-div {
+    padding-left: 20px;
+}
+#offer-news {
+    color: rgb(255, 0, 132);
+    font-weight: 600;
+}
+#offer-date {
+    color: #F00;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+.offer-description {
+    font-size: 15px;
+    color: #070211a1;
+    font-weight: 300;
+}
+#upcoming-offer-section-middle-img {
+    border: 8px solid #F00;
+    border-radius: 100%;
+    padding: 15px;
+}
+#year {
+    font-size: 38px;
+    color: #F00;
+}
+#new-year-img {
+    padding-top: 20px;
+}
+/* upcoming offer section style end */
