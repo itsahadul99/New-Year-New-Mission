@@ -110,3 +110,25 @@
     position: relative;  
 }
 /* midnight section style end */
+/* party time section style stat */
+.party-time-section-container {
+    background-image: none;
+    background-color: #FFEAEA;
+    text-align: center;
+}
+.party-time-section-details {
+    padding-top: 100px;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.important-text {
+    color: #F00;
+    font-weight: 900;
+}
+.extra {
+    background: linear-gradient(to bottom, #3333cc 0%, #ff99cc 100%);
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 10px;
+}
+/* party time section style end */
