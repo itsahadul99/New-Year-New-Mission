@@ -8,6 +8,7 @@
     width: 100%;
     height: 600px;
     margin: 50px auto;
+    border-radius: 20px;
 }
 /* banner-section style */
 .banner {
@@ -16,7 +17,6 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    border-radius: 20px;
     background-image:linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)), url(../image/Banner\ Image.png);
 }
 .banner-small-title {
@@ -37,7 +37,6 @@
     line-height: 90px;
 }
 /* banner section style-end */
-
 /* new-year-section style start */
 .new-year-section-offer {
     color: #F00;
@@ -63,3 +62,51 @@
     text-align: center;
 }
 /* new-year section style end *
+/* second section style start */
+.midnight-section {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../image/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.midnight-text-container {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.midnight-title {
+    width: 500px;
+    height: auto;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.midnight-description {
+    width: 400px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.btd-join-now {
+    margin-top: 45px;
+    padding: 10px 30px;
+    align-items: center;
+    background-color: rgba(55, 55, 55, 0.127);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid;
+}
+.btd-join-now:hover {
+    background-color: rgba(255, 0, 0, 0.554);
+    transition: all 0.5s;
+}
+.midnight-inner-img {
+    margin: 100px 100px 0 0;
+    position: relative;  
+}
+/* midnight section style end */
