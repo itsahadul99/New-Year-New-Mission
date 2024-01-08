@@ -37,3 +37,29 @@
     line-height: 90px;
 }
 /* banner section style-end */
+
+/* new-year-section style start */
+.new-year-section-offer {
+    color: #F00;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.new-year-section-second-title {
+    color: #F00;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.new-year-section-catagories {
+    color: #070211;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.new-year-pic {
+    text-align: center;
+}
+/* new-year section style end *
